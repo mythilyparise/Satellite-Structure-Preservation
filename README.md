@@ -12,6 +12,18 @@
 
 ## Overview
 
+
+# Satellite Structure Preservation
+
+## 🚀 Live Dashboard
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://satellite-structure-preservation.streamlit.app/)
+
+
+Explore the live interactive dashboard:
+
+[**Launch Satellite Structure Preservation Dashboard**](https://satellite-structure-preservation.streamlit.app/)
+
+
 Satellite imagery provides valuable information for environmental monitoring, land-cover analysis, and geospatial intelligence. However, increasing spatial resolution through image reconstruction does not necessarily guarantee the preservation of meaningful spatial structures.
 
 This project investigates **whether spatial relationships and structural patterns are preserved when medium-resolution satellite imagery is reconstructed at a higher resolution.**
