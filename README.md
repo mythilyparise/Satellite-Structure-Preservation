@@ -294,6 +294,21 @@ The application will open in your browser.
 
 **Data availability:** Raw and processed satellite rasters are excluded from this repository to avoid uploading large datasets. The complete experiments require the corresponding satellite data and generated intermediate files. The committed results folder contains the principal evaluation outputs and visualizations.
 
+
+## 🔬 Project Workflow
+
+The project follows a structured pipeline to evaluate how dimensionality reduction techniques preserve neighbourhood structure in satellite imagery.
+
+1. **Data Acquisition:** Collect Sentinel-2 and Landsat satellite imagery.
+2. **Preprocessing:** Prepare multispectral bands, handle invalid pixels, and extract image patches.
+3. **Dimensionality Reduction:** Apply PCA, t-SNE, and UMAP to reduce high-dimensional image patches into 2D representations.
+4. **Clustering:** Use K-Means to analyse spectral patterns in the satellite imagery.
+5. **Structure Evaluation:** Compare neighbourhood preservation, trustworthiness, reconstruction error, and explained variance.
+6. **Super-Resolution:** Evaluate bicubic interpolation against a residual SRCNN model using synthetic degradation experiments.
+7. **Visualization:** Present the experimental results through an interactive Streamlit dashboard.
+
+
+
 ## Limitations
 
 - Super-resolution experiments use synthetically degraded imagery rather than independently acquired high-resolution ground truth.
