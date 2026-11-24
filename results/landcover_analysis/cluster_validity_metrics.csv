@@ -1,0 +1,5 @@
+Metric,Reference,Reconstructed,Interpretation,Comparison Score
+Silhouette Score,0.33444198966026306,0.3288017213344574,Higher is better,
+Davies-Bouldin Index,0.8924584526957812,0.9022529653310108,Lower is better,
+Adjusted Rand Index (ARI),,,Reference vs reconstructed,0.2477562822356286
+Normalized Mutual Information (NMI),,,Reference vs reconstructed,0.32978933207104066

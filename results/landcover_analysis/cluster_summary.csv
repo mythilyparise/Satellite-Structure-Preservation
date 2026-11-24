@@ -1,0 +1,2 @@
+Number of clusters,Overall same-label agreement (%),Mean cluster IoU,Mean cluster spectral RMSE,Reference Silhouette Score,Reconstructed Silhouette Score,Reference Davies-Bouldin Index,Reconstructed Davies-Bouldin Index,Adjusted Rand Index (ARI),Normalized Mutual Information (NMI)
+6,58.05647562648466,0.374072216300585,0.028811014257371426,0.33444198966026306,0.3288017213344574,0.8924584526957812,0.9022529653310108,0.2477562822356286,0.32978933207104066

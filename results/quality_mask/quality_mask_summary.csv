@@ -1,0 +1,3 @@
+Satellite,Valid Pixels,Masked Pixels,Masked Percentage,QA Coverage Gaps
+sentinel2,59901,0,0.0,609
+landsat,27378,0,0.0,0
